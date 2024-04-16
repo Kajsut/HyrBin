@@ -1,4 +1,4 @@
-// Box - Updated March 30, 2024
+// Box - Updated April 16, 2024
 function noop() { }
 function assign(tar, src) {
     // @ts-ignore
@@ -2813,7 +2813,7 @@ function get_each_context(ctx, list, i) {
 	return child_ctx;
 }
 
-// (48:6) {#each buttons as button}
+// (55:6) {#each buttons as button}
 function create_each_block(ctx) {
 	let a;
 	let icon;
@@ -2850,7 +2850,7 @@ function create_each_block(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "button svelte-o9z257");
+			attr(a, "class", "button svelte-11esapp");
 			attr(a, "href", a_href_value = /*button*/ ctx[4].link.url);
 		},
 		m(target, anchor) {
@@ -2954,11 +2954,11 @@ function create_fragment(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h2, "class", "heading svelte-o9z257");
-			attr(div0, "class", "body svelte-o9z257");
-			attr(div1, "class", "buttons svelte-o9z257");
-			attr(div2, "class", "card svelte-o9z257");
-			attr(section, "class", "section-container svelte-o9z257");
+			attr(h2, "class", "heading svelte-11esapp");
+			attr(div0, "class", "body svelte-11esapp");
+			attr(div1, "class", "buttons svelte-11esapp");
+			attr(div2, "class", "card svelte-11esapp");
+			attr(section, "class", "section-container svelte-11esapp");
 		},
 		m(target, anchor) {
 			insert_hydration(target, section, anchor);
